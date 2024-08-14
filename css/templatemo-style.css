@@ -651,9 +651,10 @@ a#logo {
 .portfolio-item:hover .thumb-inner p {
   /* text-align: justify ;
   text-justify: inter-word; */
+  mar
   position: relative;
   opacity: 1;
-  visibility: visible;
+  visibility:  visible;
   color: #4a4a4a;
 }
 .portfolio-item:hover .thumb-inner {
