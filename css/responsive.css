@@ -1,9 +1,24 @@
 @media only screen and (min-width: 768px) {
-	.nav-box {
-		display:block !important;
-		height:auto !important;
-	}
+    .nav-box {
+        display: block;
+        height: auto;
+    }
 }
+
+@media only screen and (max-width: 576px) {
+    h1, h2 {
+        font-size: 20px;
+    }
+    .btn {
+        padding: 0 15px;
+        line-height: 40px;
+    }
+    .section-inner {
+        padding: 5px 15px 0;
+    }
+}
+
+
 @media only screen and (max-width: 1440px) {
 	.welcome-title {
 		font-size: 100px;
@@ -414,22 +429,30 @@
 		padding-left: 0;
 	}
 }
+
+
 @media only screen and (max-width: 460px) {
-	h4 {
-		font-size: 14px;
-	}
-	.testimonial-content:before {
-		left: 45%;
-	}
+    h4 {
+        font-size: 14px;
+        margin-bottom: 10px; /* Example of adjusting spacing */
+    }
+    .testimonial-content:before {
+        left: 45%;
+    }
+    .nav-box {
+        padding: 5px; /* Reduce padding for smaller screens */
+    }
 }
+
 @media only screen and (max-width: 320px) {
-	.gallery-overlay p {
-		display: none;
-	}
-	.testimonial-content:before {
-		left: 43%;
-	}
+    .gallery-overlay p {
+        display: none;
+    }
+    .testimonial-content:before {
+        left: 43%;
+    }
+    .nav-box {
+        padding: 3px; /* Further reduce padding for very small screens */
+    }
 }
-
-
 
